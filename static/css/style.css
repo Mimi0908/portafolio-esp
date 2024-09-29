@@ -233,7 +233,7 @@ html {
   display: flex;
   margin-top: 2%;
 }
-.header-info__contact button {
+.header-info__contact .button {
   margin: 0% 2% 0% 0%;
   padding: 15px 40px;
   border-radius: 50px;
@@ -245,11 +245,11 @@ html {
   text-shadow: black 0em 0.2em 0.2em;
 }
 
-.header-info__contact button svg {
+.header-info__contact .button svg {
   margin: 0px 0px 0px 10px;
 }
 
-.header-info__contact button:first-child {
+.header-info__contact .button:first-child {
   background-color: var(--font-color2);
 }
 
@@ -327,12 +327,13 @@ html {
   background-color: #393e4667;
   backdrop-filter: blur(2px);
   border-radius: 16px;
-  padding: 4% 2%;
+  padding: 4% 2% 2%;
 }
 
 .card img {
   border-radius: 5px;
   margin: auto;
+  margin-bottom: 25px;
 }
 
 .main-works__header h2 {
@@ -489,6 +490,11 @@ html {
 
 .footer__terms {
   margin-bottom: 3%;
+}
+
+.github_link{
+  font-weight: bolder;
+  font-family:"Poppins", sans-serif;
 }
 
 /*adaptabilidad*/
